@@ -18,6 +18,8 @@ public class Vector {
         }*/
 
         // to this one... so much better
+        saveStorage();
+
         this.students[totalStudents] = student;
         totalStudents++;
 
@@ -25,6 +27,8 @@ public class Vector {
 
     public void insert(int index, Student student) {
         // inserts a student in a specif position
+        saveStorage();
+
         if (!isPositionValid(index)) {
             throw new IllegalArgumentException("invalid position");
         }
