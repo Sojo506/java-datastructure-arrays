@@ -48,6 +48,15 @@ public class Vector {
 
     public void remove(int index) {
         //removes by position
+        if (!isPositionValid(index)) {
+            throw new IllegalArgumentException("invalid position");
+        }
+
+        for (int i = index; i < totalStudents; i++) {
+            students[i] = students[i + 1];
+        }
+
+        totalStudents--;
     }
 
     public boolean exists(Student student) {
