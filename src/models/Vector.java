@@ -70,6 +70,18 @@ public class Vector {
         return false;
     }
 
+    private void saveStorage() {
+        if (totalStudents == students.length) {
+            Student[] newArray = new Student[students.length * 2];
+
+            for (int i = 0; i < students.length; i++) {
+                newArray[i] = students[i];
+            }
+
+            this.students = newArray;
+        }
+    }
+
     private boolean isPositionValid(int position) {
         return position >= 0 && position < totalStudents;
     }
