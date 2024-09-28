@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="161b20e2-e53f-4831-829a-44f526265de9" name="Changes" comment="adds Vector class and his structure">
+    <list default="true" id="161b20e2-e53f-4831-829a-44f526265de9" name="Changes" comment="implementing saveStorage()">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Vector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +76,94 @@
       <option name="project" value="LOCAL" />
       <updated>1727541458270</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adds logic to the adds methods">
+      <option name="closed" value="true" />
+      <created>1727542089563</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727542089563</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adds logic to the size methods">
+      <option name="closed" value="true" />
+      <created>1727542167025</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727542167025</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adds logic to the exists methods">
+      <option name="closed" value="true" />
+      <created>1727543023554</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727543023554</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adds logic to the get method, and creates isPositionValid method to support it">
+      <option name="closed" value="true" />
+      <created>1727543719348</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727543719348</updated>
+    </task>
+    <task id="LOCAL-00008" summary="rename method: adds &gt; add">
+      <option name="closed" value="true" />
+      <created>1727543877748</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727543877748</updated>
+    </task>
+    <task id="LOCAL-00009" summary="creates insert method, and adds logic">
+      <option name="closed" value="true" />
+      <created>1727545021476</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727545021476</updated>
+    </task>
+    <task id="LOCAL-00010" summary="adds logic to the remove method">
+      <option name="closed" value="true" />
+      <created>1727545592811</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727545592811</updated>
+    </task>
+    <task id="LOCAL-00011" summary="creates and adds logic to the saveStorage method">
+      <option name="closed" value="true" />
+      <created>1727545974857</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727545974857</updated>
+    </task>
+    <task id="LOCAL-00012" summary="implementing saveStorage()">
+      <option name="closed" value="true" />
+      <created>1727546022814</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727546022814</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="adds Student class and his methods" />
     <MESSAGE value="adds Vector class and his structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds Vector class and his structure" />
+    <MESSAGE value="adds logic to the adds methods" />
+    <MESSAGE value="adds logic to the size methods" />
+    <MESSAGE value="adds logic to the exists methods" />
+    <MESSAGE value="adds logic to the get method, and creates isPositionValid method to support it" />
+    <MESSAGE value="rename method: adds &gt; add" />
+    <MESSAGE value="creates insert method, and adds logic" />
+    <MESSAGE value="adds logic to the remove method" />
+    <MESSAGE value="creates and adds logic to the saveStorage method" />
+    <MESSAGE value="implementing saveStorage()" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing saveStorage()" />
   </component>
 </project>
