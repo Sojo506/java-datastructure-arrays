@@ -4,9 +4,22 @@ import java.util.Arrays;
 
 public class Vector {
     private Student[] students = new Student[100];
+    private int totalStudents = 0;
 
     public void adds(Student student) {
-        // gets a student and adds it
+        // receive a student and adds it
+
+        // from this solution...
+        /*for (int i = 0; i < students.length; i++) {
+            if (students[i] == null) {
+                students[i] = student;
+                break;
+            }
+        }*/
+
+        // to this one... so much better
+        this.students[totalStudents] = student;
+        totalStudents++;
 
     }
 
