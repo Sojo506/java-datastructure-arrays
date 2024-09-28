@@ -23,6 +23,20 @@ public class Vector {
 
     }
 
+    public void insert(int index, Student student) {
+        // inserts a student in a specif position
+        if (!isPositionValid(index)) {
+            throw new IllegalArgumentException("invalid position");
+        }
+
+        for (int i = totalStudents - 1; i >= index; i--) {
+            students[i + 1] = students[i];
+        }
+
+        students[index] = student;
+        totalStudents++;
+    }
+
     public Student get(int index) {
         // gets by position
         if (!isPositionValid(index)) {
