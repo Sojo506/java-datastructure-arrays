@@ -6,7 +6,7 @@ public class Vector {
     private Student[] students = new Student[100];
     private int totalStudents = 0;
 
-    public void adds(Student student) {
+    public void add(Student student) {
         // receive a student and adds it
 
         // from this solution...
