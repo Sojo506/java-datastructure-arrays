@@ -25,7 +25,11 @@ public class Vector {
 
     public Student get(int index) {
         // gets by position
-        return null;
+        if (!isPositionValid(index)) {
+            throw new IllegalArgumentException("invalid position");
+        }
+
+        return students[index];
     }
 
     public void remove(int index) {
@@ -35,12 +39,16 @@ public class Vector {
     public boolean exists(Student student) {
         //whether exists or not a student
         for (int i = 0; i < totalStudents; i++) {
-            if(students[i].equals(student)) {
+            if (students[i].equals(student)) {
                 return true;
             }
         }
 
         return false;
+    }
+
+    private boolean isPositionValid(int position) {
+        return position >= 0 && position < totalStudents;
     }
 
     public int size() {
