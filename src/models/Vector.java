@@ -33,8 +33,13 @@ public class Vector {
     }
 
     public boolean exists(Student student) {
-        //Sabremos si está el alumno o no en la lista
         //whether exists or not a student
+        for (int i = 0; i < totalStudents; i++) {
+            if(students[i].equals(student)) {
+                return true;
+            }
+        }
+
         return false;
     }
 
