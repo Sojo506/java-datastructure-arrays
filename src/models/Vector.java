@@ -40,7 +40,7 @@ public class Vector {
 
     public int size() {
         // gets the length of students
-        return 0;
+        return totalStudents;
     }
 
     @Override
