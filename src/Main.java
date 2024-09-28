@@ -29,5 +29,11 @@ public class Main {
         list.remove(1);
         System.out.println(list);
 
+        for (int i = 0; i < 300; i++) {
+            Student z = new Student("Xavier" + i);
+            list.add(z);
+        }
+
+        System.out.println(list);
     }
 }
